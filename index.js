@@ -26,6 +26,6 @@ $(function(){
   //a 속성 제거
   $('a[href="#"]').on('click',function(e){
     e.preventDefault();
-  })
+  });
 
 });
