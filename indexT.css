@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+@media (min-width:768px){
+
+.container h2{font-size: 1.9rem;}
+
+
+
+  /* header */
+  .container > header h1{
+    margin: 20px 0 20px 20px;
+  }
+  .container > header h1 a{
+    width: 90px; height: 40px;
+  }
+  .container > header > nav .nav_menu {
+    width: 0;
+    height: 642px;
+    top: 68px;
+    background: url(images/side_ban_2020.png) no-repeat #fff 30% 100%/contain;
+  }
+  .container > header > nav .nav_menu.active{
+    width:480px;
+  }
+  .container > header > nav #toggle_menu {
+    width: 35px; height: 32px;
+  }
+  .container > header > nav .nav_menu a {
+    font-size: 24px;
+    width: 60%;
+    margin: 40px 0 0 186px;
+  }
+  
+
+/* main */
+  
+  /* banner */
+  .container > main > .banner_wrap h2{
+    font-size: 40px;
+    bottom: -95px;
+  }
+  .container > main > .banner_wrap h3{
+    font-size: 18px;
+    bottom: 90px;
+  }
+  .container > main > .banner_wrap .more a{
+    bottom: -90px;
+    font-size: 15px;
+    width: 170px;
+  }
+  .container > main > .banner_wrap .swiper-container{ height: 46vh; }
+  .container > main > .banner_wrap .swiper-container .swiper-wrapper .swiper-slide{ height: 46vh;}
+
+
+  /* global */
+  .container > main > .global_wrap h2 { margin-top: 200px;}
+  .container > main > .global_wrap .global_img{ width: 80%;}
+  .container > main > .global_wrap .global_img li img{
+    width:60%; margin:auto;
+  }
+
+  /* product */
+.container > main > .product_wrap .txtbox1{
+  height: 700px;
+  padding: 40px;
+  background-size: 70%;
+}
+.container > main > .product_wrap .product_logo{
+  width: 70px; height: 40px;
+  top:100px; left: 40px;
+  }
+  .container > main > .product_wrap h2 { margin-top:200px}
+  .container > main > .product_wrap h3{
+    font-size: 24px;
+    margin: 90px 0 20px 0;
+  }
+  .container > main > .product_wrap h4{
+    font-size: 38px;
+  } 
+  .container > main >.product_wrap > .txtbox1 p{
+    font-size: 16px;
+    width: 290px;
+    line-height: 1.8; 
+  }
+  .container > main > .product_wrap .more a{
+    font-size: 16px;
+    bottom: 320px; left: 40px;
+    width: 150px;
+  }
+  
+  /* shop */
+  .container > main > .shop_wrap h2{margin-top:200px;}
+  /* .container > main > .shop_wrap > .shop_img{ width: 1300%;} */
+  .container > main > .shop_wrap .swiper-container1 .swiper-wrapper a{
+    width: 768px;
+  }
+  .container > main > .shop_wrap > .shop_img img{ 
+    width:100%;
+    border:1px #fff solid;
+  }
+  
+  /* social activity */
+  .container > main > .social_wrap h2{margin-top: 200px;}
+  .container > main > .social_wrap h3{font-size: 18px;line-height: 1.8;}
+  .container > main > .social_wrap li{font-size: 16px;}
+  .container > main > .social_wrap .more{ margin-left: 35px;}
+  .container > main > .social_wrap .more a {font-size: 16px; width:150px; margin-left: 20px;}
+  /* partners */
+  .container > main > .partner_wrap h2{margin-top:200px;}
+  .container > main > .partner_wrap .partners img{ width: 80%;}
+  .container > main > .partner_wrap .partners_morgan img{width: 35%; margin:70px auto;}
+  .container > main > .partner_wrap .partners_morgan p{ width: 410px; font-size: 18px;}
+  .container > main > .partner_wrap .more a{ font-size: 16px; width: 150px; margin:60px auto;}
+
+  /* footer */
+  .container > footer > .footer_logo{
+    height: 100px;
+    background-size: 70%;
+    margin: 0 0 30px 55px;
+  }
+  .container > footer .guide li{ margin:15px 0 15px 55px;  width: 120px;}
+  .container > footer .guide li a{ font-size: 16px;}
+  .container > footer .contact li{font-size: 18px;  margin:20px 40px 0 0;}
+  .container > footer .contact li:nth-child(3){font-size: 14px;}
+  .container > footer .sns li{ margin:0 20px;}
+  .container > footer .sns li img{ width: 50px; height: 50px ;}
+  .container > footer address{
+    font-size: 15px;
+    margin: 25px auto;
+  }
+}

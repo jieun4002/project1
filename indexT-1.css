@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@media(min-width:1024px){
+  /* main */
+/* global */
+.container > main > .global_wrap .global_img li{
+  width: 50%;
+}
+.container > main > .global_wrap .global_img li img{
+  width: 60%;
+}
+
+
+.container > main > .shop_wrap .swiper-container1 .swiper-wrapper a{
+  width: 1024px;
+}
+/* product */
+.container > main > .product_wrap .product_logo{ width: 100px; height: 60px; }
+.container > main >.product_wrap > .txtbox1 p{ font-size: 18px; width: 340px;}
+.container > main > .product_wrap .txtbox1{background-size: 60%; background-position: 90% 80%;}
+
+/* social */
+.container > main > .social_wrap li a img{width: 80%;}
+.container > main > .social_wrap .more{ margin-left: 35px;}
+
+}
+/* partners */
+.container > main > .partner_wrap .partners_morgan img{width: 30%;}
+
+
+/* footer */
+.container > footer > .footer_logo{height: 100px;}
